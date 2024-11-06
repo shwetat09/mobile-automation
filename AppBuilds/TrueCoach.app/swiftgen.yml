@@ -1,0 +1,23 @@
+xcassets:
+  inputs: 
+    - ./Assets.xcassets
+  outputs:
+    - templateName: swift5
+      output: ../Library/Common/Assets.swift
+      params:
+        publicAccess: true
+        
+colors:
+  inputs: Colors.json
+  outputs:
+    templateName: swift5
+    output: ../Library/Common/Colors.swift
+    params:
+      publicAccess: true
+      colorAliasName: ColorType
+      
+strings:
+  inputs: Localization/en.lproj
+  outputs:
+    - templateName: structured-swift5
+      output: Localization/Localized.swift

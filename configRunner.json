@@ -1,0 +1,19 @@
+{
+  "RunType": "LocalExecutor",
+  "BSUser": "harshitjhureley_OeEd25",
+  "BSToken": "yXcy9nn75HBXXGyngUng",
+  "OSVersion": "17.5",
+  "DeviceName": "iPhone 15 Pro Max",
+  "BSAppPath": {
+    "Android": "bs://9a82dac71372704727a15157429d8df83faef7a2",
+    "iOS": "bs://f7de9b10b3a20b606747ffb7b02e3aedd218cd83"
+  },
+  "AppCenterToken": "9a8d06b37ac649766511681fcc59e4d73c6bff36",
+  "LatestBuildRequired": "false",
+  "ReleaseVersion": "",
+  "IsRegressionRun": "false",
+  "ProjectName": "TCOE Mobile Automation",
+  "BuildNameAndroid": "TCOE_Android_PLugin_Test",
+  "BuildNameIos": "TCOE_IOS_PLugin_Test",
+  "AppiumVersion":"2.6.0"
+}

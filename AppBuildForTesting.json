@@ -1,0 +1,17 @@
+{
+  "isProductionBuild": false,
+  "isMOQBuild": true,
+  "masterUserPrelogin": false,
+  "testingOS": "iOS",
+  "deviceType": "Phone",
+  "Phone": {
+    "Android": "TrueCoach_v2.0(1985)-release.apk",
+    "iOS": "TrueCoach.app"
+  },
+  "Tablet": {
+    "Android": "",
+    "iOS": ""
+  },
+  "AndroidAppPackage": "co.truecoach.client",
+  "AndroidAppActivity": "co.truecoach.client.ui.login.LoginActivity"
+}

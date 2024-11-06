@@ -1,0 +1,12 @@
+{
+"tests":[
+
+    {"deviceName":"emulator-5554","platformName":"Android","osVersion":"14"},
+    {"deviceName":"Samsung Galaxy","platformName":"Android","osVersion":"11"},
+    {"deviceName":"iPhone 15","platformName":"iOS","osVersion":"17"},
+    {"deviceName":"iPhone 15 Pro","platformName":"iOS","osVersion":"17"},
+    {"deviceName":"iPhone 16","platformName":"iOS","osVersion":"18"},
+    {"deviceName":"iPhone 13","platformName":"iOS","osVersion":"14"}
+]
+
+}

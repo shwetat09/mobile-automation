@@ -1,0 +1,16 @@
+2024-10-16 17:01:10,221 [NonParallelWorker] INFO : TouchIntractions.PerformGestureOperation(OpenQA.Selenium.Appium.AppiumDriver,. line = 0 215  and Y is179
+2024-10-16 17:01:10,226 [NonParallelWorker] INFO : TouchIntractions.PerformGestureOperation(OpenQA.Selenium.Appium.AppiumDriver,. line = 0 iOS
+2024-10-16 17:01:42,338 [NonParallelWorker] INFO : TouchIntractions.PerformGestureOperation(OpenQA.Selenium.Appium.AppiumDriver,. line = 0 215  and Y is179
+2024-10-16 17:01:42,342 [NonParallelWorker] INFO : TouchIntractions.PerformGestureOperation(OpenQA.Selenium.Appium.AppiumDriver,. line = 0 iOS
+2024-10-16 17:09:42,145 [NonParallelWorker] INFO : TouchIntractions.PerformGestureOperation(OpenQA.Selenium.Appium.AppiumDriver,. line = 0 215  and Y is179
+2024-10-16 17:09:42,151 [NonParallelWorker] INFO : TouchIntractions.PerformGestureOperation(OpenQA.Selenium.Appium.AppiumDriver,. line = 0 iOS
+2024-10-16 17:10:00,745 [NonParallelWorker] INFO : CommonOperation.PerformCoachLogin(). line = 15 Coach Login Successful
+2024-10-16 17:16:15,213 [NonParallelWorker] INFO : TouchIntractions.PerformGestureOperation(OpenQA.Selenium.Appium.AppiumDriver,. line = 0 215  and Y is179
+2024-10-16 17:16:15,220 [NonParallelWorker] INFO : TouchIntractions.PerformGestureOperation(OpenQA.Selenium.Appium.AppiumDriver,. line = 0 iOS
+2024-10-16 17:16:33,178 [NonParallelWorker] INFO : CommonOperation.PerformCoachLogin(). line = 15 Coach Login Successful
+2024-10-16 17:49:32,287 [NonParallelWorker] INFO : TouchIntractions.PerformGestureOperation(OpenQA.Selenium.Appium.AppiumDriver,. line = 0 215  and Y is179
+2024-10-16 17:49:32,292 [NonParallelWorker] INFO : TouchIntractions.PerformGestureOperation(OpenQA.Selenium.Appium.AppiumDriver,. line = 0 iOS
+2024-10-16 17:49:49,864 [NonParallelWorker] INFO : CommonOperation.PerformCoachLogin(). line = 15 Coach Login Successful
+2024-10-16 17:50:18,415 [NonParallelWorker] INFO : TouchIntractions.PerformGestureOperation(OpenQA.Selenium.Appium.AppiumDriver,. line = 0 215  and Y is179
+2024-10-16 17:50:18,422 [NonParallelWorker] INFO : TouchIntractions.PerformGestureOperation(OpenQA.Selenium.Appium.AppiumDriver,. line = 0 iOS
+2024-10-16 17:50:36,209 [NonParallelWorker] INFO : CommonOperation.PerformCoachLogin(). line = 15 Coach Login Successful

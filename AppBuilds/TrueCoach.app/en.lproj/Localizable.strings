@@ -1,0 +1,549 @@
+/*
+ Localizable.strings
+ Fitbot
+
+ Created by AJ Self on 7/6/17.
+ Copyright © 2017 Fitbot, Inc. All rights reserved.
+ */
+
+// MARK: Global
+
+"global.please_try_again" = "Please try again";
+"global.ok" = "OK";
+"global.operation_failed" = "The operation could not be completed";
+"global.photosCannotBeLoaded" = "Could not load selected image, please try again";
+"global.cancel" = "Cancel";
+"global.done" = "Done";
+"global.save" = "Save";
+"global.close" = "Close";
+"global.update" = "Update";
+"global.coach" = "Coach";
+"global.edit" = "Edit";
+"global.errorTitle" = "Something went wrong";
+"global.retry" = "Retry";
+"global.submit" = "Submit";
+"global.delete" = "Delete";
+"global.remove" = "Remove";
+"global.oops" = "Oops!";
+"global.skip" = "Skip";
+"global.fileCannotBeOpened" = "We aren't able to open this file on your device, please try opening this file on the TrueCoach.co website";
+"global.textCopied" = "Text was copied to the clipboard";
+"global.offlineTitle" = "You’re offline.";
+"global.offlineAlert" = "You may experience issues until you are connected again.";
+"global.slowInternetConnection" = "You may be experiencing a slow internet connection. Check your connection speed.";
+"global.loginFailedTitle" = "Login Failed";
+"global.offlineLoginFailedMessage" = "It looks like you're offline. For the best experience please connect to the internet.";
+
+// MARK: - Photos
+
+"photos.limitedAlert.title" = "\"TrueCoach\" Would Like To Access Your Photos";
+"photos.limitedAlert.msg" = "In order to use photos from your library on comments and messages.";
+"photos.limitedAlert.cancel" = "Keep Current Selection";
+"photos.limitedAlert.add" = "Select More Photos...";
+
+// MARK: - Account
+
+"account.title" = "Account";
+"account.settings.title" = "Settings";
+"account.settings.alert.copy" = "Copy";
+"account.version" = "Version";
+"account.up_to_date" = "You're up to date!";
+"account.out_of_date" = "This app is out of date";
+"account.workout_completed" = "workout completed";
+"account.workouts_completed" = "workouts completed";
+"account.clients" = "Clients";
+"account.section.profile" = "Profile";
+"account.section.support" = "Support";
+
+"account.billing.title" = "Billing";
+"account.billing.subscriptions" = "Subscriptions";
+"account.billing.payment_method" = "Payment Method";
+
+"account.settings.app_version.out_of_date" = "This app is out of date";
+"account.settings.app_version.not_supported" = "This app version is no longer supported";
+"account.documentation.app_version" = "Version %@: \nup to date";
+"account.documentation.app_version_old" = "Version %@: \nout of date";
+"account.documentation.bug_report" = "Report a bug";
+"account.documentation.help" = "Help";
+"account.documentation.licenses" = "Licenses";
+"account.documentation.privacy" = "Privacy Policy";
+"account.documentation.terms" = "Terms & Conditions";
+"account.documentation.notification" = "Notifications";
+"account.documentation.switchToClient" = "Switch to Client";
+"account.documentation.switchToCoach" = "Switch to Coach";
+"account.documentation.pushNotification" = "Push Notifications";
+"account.documentation.ClientWorkout" = "Client completes a workout";
+"account.documentation.ClientComment" = "Client comments on a workout";
+"account.documentation.ClientMessage" = "Client sends a message";
+
+"account.alticon.title" = "Toggle icon for";
+
+"account.signOut" = "Sign Out";
+
+"account.documents.no_file_alert.title" = "Could not open file";
+"account.documents.no_file_alert.msg" = "Something went wrong and we could not open the file you requested.";
+"account.documents.title" = "Documents";
+"account.documents.no_documents" = "No documents yet";
+
+"account.goals.title" = "Goals";
+"account.goals.contact.coach" = "Contact your coach\nto update your goals.";
+"account.goals.none" = "No goals yet";
+
+"account.equipment.title" = "Equipment";
+"account.equipment.update.failed" = "Could not update your equipment. Please try again.";
+"account.equipment.update.success" = "Equipment notes saved!";
+"account.equipment.save" = "Save Equipment";
+
+"account.metrics.title" = "Metrics";
+"account.metrics.prompt" = "Select a metric to visualize your progress";
+"account.metrics.none" = "No metrics yet";
+
+"account.payment.billing_portal_error" = "We encountered and error loading the billing portal. Please visit the TrueCoach website to access payment information";
+"account.payment.payment_method.title" = "Payment Method";
+"account.payment.payment_method.no_payment" = "No payment method yet";
+"account.payment.payment_method.add_card" = "Add a credit card";
+"account.payment.payment_method.my_card" = "My card";
+"account.payment.add_payment.add_card_title" = "Add a credit card";
+"account.payment.add_payment.edit_card_title" = "Edit a credit card";
+"account.payment.add_payment.section_header" = "CREDIT CARD";
+"account.payment.add_payment.add_card" = "Add Card";
+"account.payment.add_payment.edit_card" = "Edit Card";
+"account.payment.add_payment.your_card_number" = "Your card number";
+"account.payment.add_payment.stripe_token_fail_message" = "Cannot validate the card. Please check the card info or provide a new card.";
+"account.payment.add_payment.401_error_message" = "The action is unauthorized. Please try to log in again or contact our support team.";
+"account.payment.add_payment.403_error_message" = "There is a permission issue on your account. Please make sure you use the right account, or contact our support team.";
+"account.payment.add_payment.404_error_message" = "We cannot find the related resource. Please contact our support team.";
+"account.payment.add_payment.409_error_message" = "Looks like you already have a credit card with us. Please contact our support team.";
+"account.payment.add_payment.413_error_message" = "The upload failed. Please contact our support team.";
+"account.payment.add_payment.default_error_message" = "Oops, something went wrong. Please try again later or report this to our support team.";
+"account.subscription.empty.title_without_card" = "Your coach hasn't created a subscription for you yet.";
+"account.subscription.empty.body_without_card" = "In the meantime, you can still add your credit card to ensure your training begins smoothly.";
+"account.subscription.empty.title_with_card" = "You're all set";
+"account.subscription.empty.body_with_card" = "Your subscriptions will appear here as soon as your coach activates them.";
+"account.subscription.day" = "day";
+"account.subscription.week" = "week";
+"account.subscription.month" = "month";
+"account.subscription.year" = "year";
+"account.subscription.active" = "Active";
+"account.subscription.need_attention" = "Need Attention";
+"account.subscription.cancelled" = "Canceled";
+"account.subscription.next_payment" = "Next payment: ";
+"account.subscription.cancelled_at" = "Canceled at: ";
+"account.subscription.invoice.next_payment" = "Your next payment";
+
+"account.nutrition.title" = "Nutrition";
+"account.nutrition.total_calories" = "Total Calories: %d";
+"account.nutrition.threshold" = "Threshold: %d%%";
+"account.nutrition.facts.carbs" = "Carbs: %d (g)";
+"account.nutrition.facts.protein" = "Protein: %d (g)";
+"account.nutrition.facts.fat" = "Fat: %d (g)";
+"account.nutrition.facts.fiber" = "Fiber: %d (g)";
+"account.nutrition.files" = "Files";
+"account.nutrition.todaySegment" = "Today";
+"account.nutrition.goalsSegment" = "Goals";
+"account.nutrition.documentsSegment" = "Documents";
+"account.nutrition.no_nutrition" = "No nutrition goals yet";
+"account.nutrition.no_documents" = "No nutrition documents yet";
+"account.nutrition_log.error_fetching_daily_logs" = "Something went wrong fetching nutrition logs.";
+"account.nutrition.trackable.totalCalories" = "Total Calories";
+"account.nutrition.trackable.calories" = "Calories";
+"account.nutrition.trackable.carbs" = "Carbs";
+"account.nutrition.trackable.fat" = "Fat";
+"account.nutrition.trackable.fiber" = "Fiber";
+"account.nutrition.trackable.protein" = "Protein";
+"account.nutrition.goal_prompt" = "Goal: %@";
+"account.nutrition.notes" = "Notes";
+"account.nutrition.notes_placeholder" = "(Optional)";
+"account.nutrition.mfp_connect_message" = "If you want to connect your My Fitness Pal account, please go to our web app: app.truecoach.co/client/nutrition.";
+"account.nutrition.mfp_disconnect_message" = "If you want to disconnect your My Fitness Pal account, please go to our web app: https://app.truecoach.co/client/nutrition.";
+"account.nutrition.mfp_alert_title" = "Nutrition is Locked";
+"account.nutrition.mfp_alert_body" = "When MyFitnessPal is connected to TrueCoach, you must add your nutrition data in the MyFitnessPal app.";
+
+"account.profile.title" = "Edit Profile";
+"account.profile.editPhoto" = "Change Photo";
+"account.profile.first_name" = "First Name";
+"account.profile.last_name" = "Last Name";
+"account.profile.email" = "Email";
+"account.profile.telephone" = "Phone";
+"account.profile.timezone" = "Time Zone";
+"account.profile.ft_in" = "ft/in";
+"account.profile.cm" = "cm";
+"account.profile.height" = "Height";
+"account.profile.lbs" = "lbs";
+"account.profile.kg" = "kg";
+"account.profile.units_label" = "Units";
+"account.profile.units.metric" = "Metric";
+"account.profile.units.us" = "Imperial/US";
+"account.profile.weight" = "Weight";
+"account.profile.birthday" = "Birthday";
+"account.profile.gender" = "Gender";
+"account.profile.genders.female" = "Female";
+"account.profile.genders.non-binary" = "Non-Binary";
+"account.profile.genders.male" = "Male";
+"account.profile.genders.prefer_not_to_say" = "Prefer not to say";
+"account.profile.location" = "Location";
+"account.profile.city_st" = "City, ST";
+"account.profile.skype" = "Skype";
+"account.profile.optional" = "Optional";
+"account.profile.save_success" = "Your profile has been updated";
+"account.profile.differentTimezone" = "Your system timezone does not match the timezone in your TrueCoach profile. Please update your TrueCoach profile.";
+
+"account.profile.new_profile_photo.title" = "Uploading Profile Photo";
+"account.profile.new_profile_photo.failed" = "Upload failed. Please try again later.";
+
+"account.system_info" = "System Info";
+"account.feedback" = "Feedback";
+
+"account.progress.title" = "Progress Pictures";
+"account.progress.newTitle" = "New Pictures";
+"account.progress.front" = "Front";
+"account.progress.side" = "Side";
+"account.progress.back" = "Back";
+"account.progress.select" = "Tap to select";
+"account.progress.empty" = "Tap to add your first picture session";
+"account.progress.changeDate" = "Change date";
+"account.progress.newDate" = "Enter a new date";
+"account.progress.delete" = "Delete picture set";
+"account.progress.incomplete_set" = "You have not added a picture for each section, are you sure you want to save?";
+"account.progress.has_photo_set" = "You have already uploaded progress pictures on this date, please select a different date";
+"account.progress.delete_photo_confirmation" = "Remove this picture so you can add different one?";
+"account.progress.delete_photo_title" = "Remove Picture";
+"account.progress.no_image_selected.message" = "Select images before saving.";
+"account.progress.no_image_selected.title" = "No images selected";
+"account.progress.uploading.message" = "Please wait until all images are uploaded before saving.";
+"account.progress.uploading.title" = "Image is uploading";
+"account.progress.session_not_saved.message" = "The following error occurred; please try again.\n\n";
+"account.progress.session_not_saved.title" = "Failed to save";
+"account.progress.image_not_saved.message" = "Please check your connection and try again.";
+"account.progress.image_not_saved.title" = "Image upload failed.";
+"account.progress.add.images" = "+ Add progress pictures";
+"account.progress.delete.set.title" = "Delete Set";
+"account.progress.delete.set.message" = "Are you sure you want to delete your set of pictures from %@?";
+"account.progress.first_photo_session" = "First";
+"account.progress.latest_photo_session" = "Latest";
+"account.progress.add.pictures" = "Add progress pictures";
+"account.progress.load_more" = "Load more...";
+
+"archived_client.alert.message_short" = "It looks like your coach has archived your client account. Contact your coach to re-activate or transfer your account.";
+"archived_client.alert.message" = "It looks like your coach, %@, has archived your client account";
+"archived_client.alert.email_your_coach" = "Email Your Coach";
+"archived_client.email.subject" = "Re-Activate TrueCoach Client Account";
+"archived_client.email.body" = "Hey Coach,\n\nI'm ready to start training again - can you please re-activate my client account?";
+
+"account.profile.emailNote" = "Please update your email online at truecoach.co";
+"account.profile.warn.emailTitle" = "Please update online";
+"account.profile.warn.emailMessage" = "We are not able to update your email through the app, please do this online at truecoach.co/client/profile";
+"account.profile.warn.emailLink" = "Go to profile";
+
+// MARK: - Coming Soon
+
+"comingsoon" = "%@ is coming soon!";
+
+// MARK: - Exercise (Workout Item)
+
+"exercise.result.failed" = "Could not save exercise result. Please try again.";
+
+// MARK: - Exercise History
+
+"exercise_history.placeholder" = "Search Exercises";
+"exercise_history.title" = "Exercise History";
+"exercise_history.view_workout" = "View Workout";
+"exercise_history.search_for_exercise_history.empty_result" = "No history for this exercise";
+"exercise_history.search_for_exercise_history.network_error" = "Could not load search results. Please try again.";
+
+// MARK: - Add Notes
+
+"add_notes.title" = "Add Notes";
+
+// MARK: - Messages
+
+"messages.try_again" = "Try Again";
+"messages.delete_message" = "Delete Message";
+"messages.empty" = "No chat history";
+"messages.placeholder" = "Send a message";
+"messages.title" = "Messages";
+"messages.send_error.message" = "Your message failed to send.";
+"messages.send_error.title" = "Uh oh!";
+
+// MARK: - Metrics
+
+"metrics.no_results" = "Graphs are only available for number or time-based metrics.";
+
+// MARK: - Metric Detail
+
+"metric_detail.title" = "Metric Detail";
+
+// MARK: - Metric Result
+
+"metric_result.add_metric_result" = "Add metric result";
+"metric_result.add_media_button" = "Add photos or videos";
+"metric_result.date_input.descrption" = "Date";
+"metric_result.no_previous_results" = "No previous results";
+"metric_result.previous_result" = "Last completed: %@";
+"metric_result.result_input.badge" = "reps";
+"metric_result.result_input.description" = "Result";
+"metric_result.result_input.placeholder" = "Add metric result...";
+"metric_result.save.failed" = "Metric result failed to save. Please try again.";
+"metric_result.save.success" = "Metric result saved. Nice work!";
+"metric_result.add.title" = "Add Result";
+"metric_result.editing.title" = "Edit Result";
+"metric_result.update_metric" = "Update Metric";
+
+
+// MARK: - Messenger
+
+"messenger.delete" = "Delete";
+"messenger.failed" = "Not Delivered";
+"messenger.no_comments" = "Add a comment to this %@…";
+"messenger.media_picker.denied.title" = "Oh no! 🙀";
+"messenger.media_picker.denied.message" = 'TrueCoach needs permission to view and manage your photos and videos. Tap "Update" to toggle on in Settings.';
+
+// MARK: - Network errors
+
+"network_error.not_authorized.title" = "Login Failed: Email address or password is invalid";  //used to be "session has expired"
+"network_error.not_authorized.message" = "Please try signing in again.";
+
+// MARK: - Notifications
+
+"notifications.title" = "Notifications";
+"notifications.searchPlaceholder" = "Search client by name";
+
+// MARK: - Nutrition
+
+"nutrition.title" = "Nutrition";
+"nutrition.save.success" = "Nutrition entry saved.";
+"nutrition.save.failed" = "Nutrition entry failed to save. Please try again.";
+
+// MARK: - Nutrition Attachments
+
+"nutrition_attachment.failed" = "Upload failed. Please try again later.";
+"nutrition_attachment.title" = "Uploading Nutrition Log Photo";
+"nutrition.attachment.tooMany.title" = "Nutrition Photo Max";
+"nutrition.attachment.tooMany.message" = "You can only upload 5 images to nutrition notes.";
+
+// MARK: - Push Notifications
+
+"push_notifications.error.comment" = "Could not retrieve comment";
+"push_notifications.local.comment" = "You have a new comment on one of your workouts.";
+"push_notifications.local.comment_with_title" = "New comment on your workout %@";
+"push_notifications.local.message" = "You have a new message from your coach";
+
+// MARK: - Sign In
+
+"signin.bad_credentials.message" = "Please check your email and password and try again";
+"signin.bad_credentials.title" = "Could not sign into TrueCoach";
+"signin.button_client" = "Sign in as Client";
+"signin.button_coach" = "Sign in as Coach";
+"signin.button" = "Sign in";
+
+"signin.email" = "Email";
+"signin.forgot_password" = "Forgot your password?";
+"signin.no_account" = "New to TrueCoach?";
+"signin.signin_with_google" = "Log in with Google";
+"signin.invalid.field_title" = "Oh no! 🙀";
+"signin.invalid.email_field" = "Please provide a valid email address";
+"signin.invalid.password_field" = "Please provide a valid password";
+"signin.maintenance.message" = "Server is not available, and may be down for maintenance. Try again later.";
+"signin.not_a_client.message" = "It looks like you only have a coach account. Please click sign in as a coach below to log into the coach version of the app";
+"signin.not_a_client.title" = "You only have a Coach account";
+
+"signin.not_a_coach.message" = "It looks like you only have a client account. Please click sign in as a client below to log into the client version of the app.";
+"signin.not_a_coach.title" = "You only have a Client account";
+
+"signin.or" = "OR";
+"signin.password" = "Password";
+"signin.timeout.message" = "Please check your Internet connection and try again";
+"signin.timeout.title" = "Could not sign into TrueCoach";
+"signin.trainer_changed.message" = "You need to log in again since your coach changed";
+"signin.reset_password" = "Reset Password";
+"signin.provide_email" = "Enter your email below to receive your\npassword reset instructions";
+"signin.reset_password_success" = "Please check your inbox to reset password!";
+"signin.reset_password_fail" = "Oops something went wrong. Please double check your email address and try again!";
+"signin.openInWeb" = "web app";
+"signin.minVersionTitle" = "Upgrade Available";
+"signin.minVersionMsg" = "A new minimum supported version of the app is available, please upgrade now in the app store.";
+"signin.minOSTitle" = "Unsupported iOS";
+"signin.minOSMsg" = "We're no longer able to support this version of iOS, please upgrade or go to our Web App to continue using TrueCoach.";
+"signin.inPerson.title" = "Email Your Coach";
+"signin.inPerson.msg" = "It looks like your coach has made your account In Person only. Contact your coach to get access to the app.";
+"signin.trueCoachConnect" = "I'm looking for the coach app";
+"signin.CoachHasNoAccess.msg" = "It looks like your account is no longer active. Please log in to https://app.truecoach.co/login and reactivate your account.";
+"signin.CoachHasNoAccess.title" = "Your Account is not Active";
+"signin.Clients_Trainer_HasNoAccess.message" = "It looks like your coach's subscription to TrueCoach is not active.";
+"signin.Clients_Trainer_HasNoAccess.title" = "Your Coach's Account is not active";
+
+// MARK: - Units
+
+"unit.grams" = "grams";
+"unit.total" = "total";
+
+// MARK: - Workouts
+
+"workouts.title" = "Workouts";
+"workouts.activity.title" = "Activity";
+"workouts.client_activity.title" = "Client Activity";
+"workouts.client_activity.noactivity" = "No activity";
+"workouts.client_activity.noWorkout" = "No workout items available";
+"workouts.client_activity.all" = "All";
+"workouts.client_activity.unread" = "Unread";
+"workouts.client_activity.completed" = "completed";
+"workouts.client_activity.commented" = "commented on";
+"workouts.warmup.title" = "Warm up";
+"workouts.cooldown.title" = "Cool down";
+"workouts.single_workout" = "Workout";
+"workouts.rest_day_instructions" = "Enjoy your rest day!";
+"workouts.workout_backup_title" = "a Workout";
+"workouts.you_completed" = "You completed";
+"workouts.summary_title" = "Your workout summary";
+"workouts.crushed_it" = "Crushed it";
+"workouts.completed_data" = "%@ of %@ exercises completed";
+"workouts.rest_day" = "Rest day";
+"workouts.schedule.title" = "Workouts";
+"workouts.calendar_switcher.upcoming" = "Upcoming";
+"workouts.calendar_switcher.past" = "Past";
+"workouts.none.title" = "No upcoming workouts";
+"workouts.past.none.title" = "No workouts in %@";
+"workouts.schedule.restday" = "Rest day";
+"workouts.schedule.today" = "Today";
+"workouts.refresh.up_to_date" = "You are up to date 💪";
+"workouts.refresh.retry.title" = "Workouts aren’t loading right now 😕";
+"workouts.good.morning.message" = "Good morning, %@";
+"workouts.good.afternoon.message" = "Good afternoon, %@";
+"workouts.good.evening.message" = "Good evening, %@";
+
+// MARK: - Workout Detail
+
+"workout_detail.beginButton" = "Begin Workout";
+"workout_detail.editButton" = "Edit Workout";
+"workout_detail.comment" = "Add Comment";
+"workout_detail.comments" = "Workout Comments";
+"workout_detail.cool_down" = "Cool Down";
+"workout_detail.warmup" = "Warmup";
+"workout_detail.section.comments" = "Comments";
+"workout_detail.total_exercises" = "%d Exercises";
+"workout_detail.total_completed_exercises" = "%d of %d Exercises";
+"workout_detail.button_state.begin" = "Begin";
+"workout_detail.button_state.resume" = "Resume";
+"workout_detail.button_state.update" = "Update";
+"workout_detail.rest_day_header.title" = "Rest Day";
+"workout_detail.rest_day_header.total_exercises" = "No Exercises";
+"workout_detail.rest_day" = "rest day";
+"workout_detail.rest_day_default_instructions" = "Enjoy the day!";
+"workout_detail.hidden_text" = "This is an in-person workout.\n\nYour exercises and results will appear here after completing them with your coach!";
+"workout_detail.hidden_title" = "On-Site Training";
+"workout_detail.hidden_subtitle" = "In-person workout";
+"workout_detail.workout" = "workout";
+"workout_detail.instructions" = "Instructions";
+"workout_detail.video_description" = "Video description";
+"workout_detail.add_results" = "Add results for ";
+"workout_detail.update_results" = "Update results for ";
+"workout_detail.results" = "RESULTS";
+"workout_detail.notes" = "Notes";
+"workout_detail.complete_workout" = "Complete Workout";
+"workout_detail.header.exercise" = "Exercise";
+"workout_detail.header.exercises" = "Exercises";
+"workout_detail.header.warm_up" = "Warm Up";
+"workout_detail.header.cool_down" = "Cool Down";
+"workout_detail.complete_workout_item.update_fail" = "Failed to mark a workout item as completed, please try again later.";
+"workout_detail.hasAttachments" = "Has attachments";
+
+// MARK: - MediaPicker
+
+"media_picker.take_photo" = "Camera";
+"media_picker.pick_photo" = "Photo Library";
+"media_picker.save_photo" = "Save to Photos";
+"media_picker.video_too_big" = "The video you've selected is larger than 200 mb";
+"media_picker.choose_photos" = "Choose Photos";
+
+// MARK: - Media Upload
+
+"media_upload.retry" = "Retry";
+"media_upload.uploading" = "Uploading";
+"media_upload.success" = "Success!";
+"media_upload.failed" = "Upload failed";
+
+// MARK: - Workout Comments
+
+"comments.noCommentsYet" = "No comments on this workout";
+"comments.deleteFailed" = "We can't delete that comment right now, please try again later.";
+
+// MARK: - Onboarding Screens
+
+"onboarding.client_button.title" = "I'm a Client";
+"onboarding.coach_button.title" = "I'm a Coach";
+"onboarding.coach_button.getItNow" = "Get it on the App Store";
+
+"onboarding.picker.headline" = "Hey There!";
+"onboarding.screen.headline" = "Use the client app to";
+
+"onboarding.picker.title" = "LET'S GET STARTED";
+"onboarding.workouts.title" = "RECORD YOUR WORKOUTS";
+"onboarding.messages.title" = "MESSAGE YOUR COACH";
+"onboarding.metrics.title" = "TRACK YOUR PROGRESS";
+
+// MARK: - Add Result
+
+"workout_detail.add_result.your_results" = "Your result";
+"workout_detail.add_result.type_results" = "Type your results...";
+"workout_detail.add_result.add_media" = "Add photo or video";
+"workout_detail.add_result.mark_complete" = "Mark this activity complete?";
+"workout_detail.add_result.rename_attachment" = "Rename file to: ";
+
+// MARK: - Workout
+
+"workout.leave" = "Leave workout";
+
+"workout.view_history" = "View History";
+
+"workout.completed" = "Completed";
+"workout.missed" = "Missed";
+"workout.results_placeholder" = "Enter Results…";
+
+"workout.instructions.superset.title" = "Superset";
+"workout.instructions.superset.body" = "To complete a superset, complete the first round of the first exercise, then proceed to the first round of the second exercise. \n\nContinue to loop through all the exercises until you have satisfied the requirements for each exercise.";
+
+"workout.info.circuit" = "Circuit";
+"workout.info.single" = "Single";
+"workout.info.superset" = "Superset";
+
+"workout.instructions.circuit.title" = "Circuits";
+"workout.instructions.circuit.body" = "Circuits are composed of several, smaller exercises. Completing a circuit is as simple as following the directions your coach has prescribed.";
+
+"workout.instructions.single.title" = "Single Exercise";
+"workout.instructions.single.body" = "A single exercise, repeated for a specific number of sets before moving on to another exercise.";
+
+"workout.instructions.confirm" = "Let's do it!";
+
+"workout.titles.cooldown" = "Cooldown";
+"workout.titles.warmup" = "Warmup";
+
+"workout.attachment.delete.failed" = "Could not delete image or video. Please try again.";
+"workout.finish.title" = "Way to crush today’s workout 👊";
+"workout.finish.neutral" = "Workout summary";
+"workout.save.failed" = "Could not save workout result. Please try again.";
+"workout.save.success" = "Workout result saved";
+"workout.finish.subtitle" = "Completed %d of %d exercises";
+"workout.finish.button" = "Complete Workout";
+
+"workout.video.description" = "View video description";
+
+// MARK: - Workout timer
+
+"timer.reset" = "Reset";
+"timer.start" = "Start";
+"timer.stop" = "Stop";
+"timer.pause" = "Pause";
+"timer.copied" = "copied to clipboard!";
+"timer.stopwatch" = "Stopwatch";
+"timer.countdownTimer" = "Timer";
+"timer.countdownInterval" = "Countdown";
+"timer.workInterval" = "Work";
+"timer.restInterval" = "Rest";
+"timer.done" = "Done!";
+"timer.interval" = "Interval";
+"timer.workingTime" = "Working Time";
+"timer.restTime" = "Rest Time";
+"timer.intervalPlural" = "Intervals";
+"timer.error.fastTitle" = "That was fast!";
+"timer.error.cannotStart" = "Enter a time greater than zero and tap start again.";
+"timer.alert.timerEnded" = "Your %@ timer has ended!";
