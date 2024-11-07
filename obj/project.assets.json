@@ -2454,14 +2454,14 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\com.xplor.appium 3.framework\\com.xplor.appium.framework\\com.xplor.appium.framework.csproj",
+      "projectUniqueName": "C:\\Users\\ShwetaThakur\\Documents\\mobile-automation\\com.xplor.appium.framework.csproj",
       "projectName": "com.xplor.appium.framework",
-      "projectPath": "C:\\com.xplor.appium 3.framework\\com.xplor.appium.framework\\com.xplor.appium.framework.csproj",
+      "projectPath": "C:\\Users\\ShwetaThakur\\Documents\\mobile-automation\\com.xplor.appium.framework.csproj",
       "packagesPath": "C:\\Users\\ShwetaThakur\\.nuget\\packages\\",
-      "outputPath": "C:\\com.xplor.appium 3.framework\\com.xplor.appium.framework\\obj\\",
+      "outputPath": "C:\\Users\\ShwetaThakur\\Documents\\mobile-automation\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\com.xplor.appium 3.framework\\com.xplor.appium.framework\\NuGet.Config",
+        "C:\\Users\\ShwetaThakur\\Documents\\mobile-automation\\NuGet.Config",
         "C:\\Users\\ShwetaThakur\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

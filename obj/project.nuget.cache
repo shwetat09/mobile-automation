@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "R2WvLnBYmNs=",
+  "dgSpecHash": "oXbm7M4LXMg=",
   "success": true,
-  "projectFilePath": "C:\\com.xplor.appium 3.framework\\com.xplor.appium.framework\\com.xplor.appium.framework.csproj",
+  "projectFilePath": "C:\\Users\\ShwetaThakur\\Documents\\mobile-automation\\com.xplor.appium.framework.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ShwetaThakur\\.nuget\\packages\\appium.webdriver\\5.1.0\\appium.webdriver.5.1.0.nupkg.sha512",
     "C:\\Users\\ShwetaThakur\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
